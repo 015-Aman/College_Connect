@@ -48,7 +48,7 @@ app.use(session({
 //passport middleware
 app.use(passport.initialize());
 app.use(passport.session());
-
+   
 // flash
 app.use(flash());
 //
