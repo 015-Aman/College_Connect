@@ -5,7 +5,6 @@ const session = require('express-session');
 const cookieParser = require('cookie-parser');
 const flash = require('connect-flash');
 const PORT = process.env.PORT || 4000;
-// const DBURI = "mongodb+srv://Aman_Singh:Aman123@cluster0.npvxjlh.mongodb.net/?retryWrites=true&w=majority";
 const DBURI = "mongodb://127.0.0.1:27017/c_connect"
 const passport = require('passport');
 require('./middlewares/passport')(passport);
